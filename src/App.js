@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,8 +7,8 @@ function App() {
 			<div className="my-detail">
 				<div className="header">
 					<h1>SOURAV KUMAR</h1>
-					<a href="https://www.linkedin.com/in/sourav-kumar-93aa86182" target="_blank" className="linkedin-a">
-						<img className="linkedin" src="linked.jpg" />
+					<a href="https://www.linkedin.com/in/sourav-kumar-93aa86182" target="_blank" rel="noopener noreferrer" className="linkedin-a">
+						<img className="linkedin" src="linked.jpg" alt="linkedin"/>
 					</a>
 				</div>
 
