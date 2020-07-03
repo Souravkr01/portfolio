@@ -1,129 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-<head>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-	<title>Sourav Kumar</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-</head>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-<body>
-	<div class="resume">
-		<div class="my-detail">
-			<div class="header">
-				<h1>SOURAV KUMAR</h1>
-				<a href="https://www.linkedin.com/in/sourav-kumar-93aa86182" target="_blank" class="linkedin-a">
-					<img class="linkedin" src="linked.jpg" />
-				</a>
-			</div>
-
-
-			<div class="detail">
-				<div class="image-container">
-				</div>
-
-
-
-				<p class="tab-detail">My name is <b>Sourav Kumar</b>.<br>
-					I am pursuing B.Tech in CSE.</br></p>
-
-
-			</div>
-		</div>
-		<div>
-			<div class="career-objective gradient-background">
-				<h1 class="header-style">CAREER OBJECTIVE</h1>
-				<p class="tab-detail">I want to put my creative skills, innovation and dedication to work towards the growth of the
-					organization and prove myself worthy, energetic and a smart engineer and want to evolve continuously
-					through learning.</p>
-			</div>
-			<div class="synopsis gradient-background">
-				<h1 class="header-style">SYNOPSIS</h1>
-				<ul class=tab-detail>
-					<li>Self-motivated with an urge to serve the organization and evolve through learning.</li>
-					<li>Creative and innovative mind.</li>
-					<li>Keen to learn new things and gain experience through working in organization.</li>
-					<li>Want to be a part of developing corporate and gain special importance in society.</li>
-				</ul>
-			</div>
-			<div class="academics gradient-background">
-				<h1 class="header-style">ACADEMICS</h1>
-				<div class="table-container">
-					<table class="tab-detail">
-						<tr>
-							<th>Degree / Qualification</th>
-							<th>Institute</th>
-							<th>Board / University</th>
-							<th>Year of Passing</th>
-							<th>Aggregate % / CGPA</th>
-						</tr>
-						<tr>
-							<td>B. Tech, CSE</td>
-							<td>Gandhi Engineering College, Bhubaneswar</td>
-							<td>BPUT</td>
-							<td>2022 (Pursuing)</td>
-							<td>7.35, Till 3rd Sem</td>
-						</tr>
-						<tr>
-							<td>12th Science</td>
-							<td>Jamshedpur Co-Operative College</td>
-							<td>JAC</td>
-							<td>2018</td>
-							<td>60.4</td>
-						</tr>
-						<tr>
-							<td>10th</td>
-							<td>KPS KADMA</td>
-							<td>ICSE</td>
-							<td>2015</td>
-							<td>67.83</td>
-						</tr>
-					</table>
-
-				</div>
-			</div>
-			<div class="subject-interest gradient-background">
-				<h1 class="header-style">SUBJECTS OF INTEREST</h1>
-				<ul class="tab-detail">
-					<li>Java Programming</li>
-					<li>Web Development</li>
-					<li>Python Programming</li>
-				</ul>
-			</div>
-			<div class="accolades gradient-background">
-				<h1 class="header-style">ACCOLADES</h1>
-				<ul class="tab-detail">
-					<li>Secured <b>4th</b> and <b>5th</b> position in <b>Hindi Pakhwada</b> debate competition held at
-						<b>IIT BHUBANESWAR</b> in the year 2018 and 2109 respectively.</li>
-					<li>College <b>3rd topper</b> in the <b>BRICS Summit</b> competition held at <b>GEC Tech
-							Utsav</b>.</li>
-					<li>Secured <b>4th</b> position in the <b>Man Ki baat</b> competition held at <b>IIIT
-							BHUBANESWAR</b> in 2019.</li>
-					<li>Secured <b>3rd</b> position in <b>Skit</b> competition held at GEC Gandhi Jayanti Utsav 2018.
-					</li>
-				</ul>
-			</div>
-			<div class="seminar gradient-background">
-				<h1 class="header-style">SEMINARS</h1>
-				<ul class="tab-detail">
-					<li>Attended Seminar on <b>Computer Architecture & Artificial Intelligence</b> organized by Gandhi
-						Engineering College, Bhubaneswar.</li>
-				</ul>
-			</div>
-			<div class="extra-curricular  gradient-background">
-				<h1 class="header-style">EXTRA-CURRICULAR</h1>
-				<ul class="tab-detail">
-					<li>Senior member of <b>SPURITHA Club</b> at <b>GEC Bhubaneswar</b>.</li>
-					<li>Volunteer in the <b>Coder</b> event in Tech Utsav held at <b>GEC Bhubaneswar</b>.</li>
-				</ul>
-			</div>
-		</div>
-
-
-	</div>
-
-</body>
-
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
