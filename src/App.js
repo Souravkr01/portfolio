@@ -90,8 +90,7 @@ function App() {
 				<div className="accolades gradient-background">
 					<h1 className="header-style">ACCOLADES</h1>
 					<ul className="tab-detail">
-						<li>Secured <b>4th</b> and <b>5th</b> position in <b>Hindi Pakhwada</b> debate competition held at 
-						<b>IIT BHUBANESWAR</b> in the year 2018 and 2019 respectively.</li>
+						<li>Secured <b>4th</b> and <b>5th</b> position in <b>Hindi Pakhwada</b> debate competition held at <b>IIT BHUBANESWAR</b> in the year 2018 and 2019 respectively.</li>
 						<li>College <b>3rd topper</b> in the <b>BRICS Summit</b> competition held at <b>GEC Tech
 							Utsav</b>.</li>
 						<li>Secured <b>4th</b> position in the <b>Man Ki baat</b> competition held at <b>IIIT
