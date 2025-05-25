@@ -19,7 +19,7 @@ function App() {
 
 
 
-					<p className="tab-detail">My name is <b>Sourav Kumar</b>.<br />
+					<p className="tab-detail">My name is <b>Soourav Kumar</b>.<br />
 					I am pursuing B.Tech in CSE.<br /></p>
 
 
