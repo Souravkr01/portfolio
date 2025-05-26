@@ -17,7 +17,7 @@ http.createServer(function(req, res){
     }else if(req.url.match("\.jpg$")){
         var imagePath = path.join(__dirname, 'public', req.url);
         var fileStream = fs.createReadStream(imagePath);
-        res.writeHead(200, {"Content-type": "image/jpg"});
+        res.writeHead(200, {"Content-type": "image/jpg.webp"});
         fileStream.pipe(res);
 
     }else{
